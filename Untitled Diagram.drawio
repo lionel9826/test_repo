@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T07:35:21.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="awh-hu7OEhQAIADt6Iv2" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-27T11:34:54.211Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="fuXrdaL3aGO02v8lUtDU" version="17.4.6" type="github">
   <diagram id="zVz8hgJ6c6et2yKOTF47" name="Page-1">
-    <mxGraphModel dx="692" dy="357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1730" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -217,6 +217,58 @@
         </mxCell>
         <mxCell id="nbutXsBGKnJb9Uugoemd-58" value="ApiModule" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="650" y="1790" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nbutXsBGKnJb9Uugoemd-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nbutXsBGKnJb9Uugoemd-63" target="nbutXsBGKnJb9Uugoemd-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="2290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nbutXsBGKnJb9Uugoemd-63" value="获取记录时间" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="510" y="2220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nbutXsBGKnJb9Uugoemd-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="nbutXsBGKnJb9Uugoemd-65" target="nbutXsBGKnJb9Uugoemd-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nbutXsBGKnJb9Uugoemd-65" value="格式化记录日期&lt;br&gt;精度到日" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="509.5" y="2300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nbutXsBGKnJb9Uugoemd-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="nbutXsBGKnJb9Uugoemd-66" target="nbutXsBGKnJb9Uugoemd-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nbutXsBGKnJb9Uugoemd-75" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="nbutXsBGKnJb9Uugoemd-70">
+          <mxGeometry x="-0.1996" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nbutXsBGKnJb9Uugoemd-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nbutXsBGKnJb9Uugoemd-66" target="nbutXsBGKnJb9Uugoemd-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="2440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nbutXsBGKnJb9Uugoemd-73" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="nbutXsBGKnJb9Uugoemd-71">
+          <mxGeometry x="-0.6897" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nbutXsBGKnJb9Uugoemd-66" value="数据库中是否存在&lt;br&gt;对应日期的记录" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="489.5" y="2380" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nbutXsBGKnJb9Uugoemd-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nbutXsBGKnJb9Uugoemd-69" target="nbutXsBGKnJb9Uugoemd-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="2610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nbutXsBGKnJb9Uugoemd-69" value="记录字段自增" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="510" y="2520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nbutXsBGKnJb9Uugoemd-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="nbutXsBGKnJb9Uugoemd-72" target="nbutXsBGKnJb9Uugoemd-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nbutXsBGKnJb9Uugoemd-72" value="创建记录" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="690" y="2520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nbutXsBGKnJb9Uugoemd-77" value="保存到数据库" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="509.5" y="2610" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
